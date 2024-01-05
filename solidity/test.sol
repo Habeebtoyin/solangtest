@@ -1,11 +1,11 @@
 
 @program_id("F1ipperKF9EfD821ZbbYjS319LXYiBmjhzkkf5a26rC")
 contract test {
-    bool private value = true;
+    bool private value = false;
 
     @payer(payer)
     constructor() {
-        print("Hello, World!");
+        print("Hello, solang World!");
     }
 
     /// A message that can be called on instantiated contracts.
